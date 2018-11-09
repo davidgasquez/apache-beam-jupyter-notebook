@@ -2,7 +2,7 @@ FROM python:2
 
 RUN apt-get -y update
 
-RUN pip install jupyter pymongo ipython apache-beam[gcp]
+RUN pip install jupyter apache-beam[gcp]
 
 WORKDIR /work
 
