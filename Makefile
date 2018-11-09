@@ -1,4 +1,4 @@
-IMAGE_NAME := davidgasquez/apache-beam-on-jupyter-notebook:1.0.0
+IMAGE_NAME := apache-beam-on-jupyter-notebook:1.0.0
 
 .PHONY: all build run dev
 
